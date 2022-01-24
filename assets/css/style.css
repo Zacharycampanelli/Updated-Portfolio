@@ -1,12 +1,12 @@
 /* Variable Declarations and Default Settings */
 
 :root {
-  --darkblue: #047d9e;
-  --lightblue: #06dbce;
-  --grey: #4f5155;
+  --darkblue: #0B3140;
+  --mediumblue: #0E6973;
+  --lightteal: #1AD9C6;
   --white: #ffffff;
-  --darkgreen: #061f26;
-  --green: #0b3d3a;
+  --darkteal: #14A697;
+  --skyblue: #C4F2EE;
 }
 
 * {
@@ -70,9 +70,12 @@ a:link, a:visited {
 #navbar-title {
   font-size: 2.2em;
   font-weight: bold;
-
+  text-align: center;
   color: var(--white);
+  margin: 0;
 }
+
+
 
 /* Banner Styles */
 .banner {
@@ -189,7 +192,7 @@ a:link, a:visited {
   }
 
   .contact-icon {
-      font-size: 3em;
+      font-size: 2em;
       color:#000
   }
 
