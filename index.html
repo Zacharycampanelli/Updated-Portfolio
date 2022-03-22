@@ -18,10 +18,7 @@
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;500;700;800&display=swap"
@@ -34,9 +31,7 @@
     <section class="banner">
       <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" id="navbar-title" href="#" 
-            >Zachary Campanelli</a
-          >
+          <a class="navbar-brand" id="navbar-title" href="#">Zachary Campanelli</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -48,10 +43,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="collapseNavbar"
-          >
+          <div class="collapse navbar-collapse justify-content-end" id="collapseNavbar">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="#about_me">About Me</a>
@@ -71,9 +63,7 @@
       </nav>
 
       <div class="content-area">
-        <div
-          class="content animate__animated animate__fadeIn animate__delay-1s animate__slow centered"
-        >
+        <div class="content animate__animated animate__fadeIn animate__delay-1s animate__slow centered">
           <img id="logo" src="./assets/images/logo.png" alt="logo" />
           <h2>Full-Stack Developer</h2>
         </div>
@@ -94,29 +84,20 @@
           </div>
           <div class="col-12 col-lg-6">
             <h3 class="section_title">About Me</h3>
-            <p>
-              Full-Stack Developer, Graphic Designer, Life-Long Student and avid
-              coffee drinker ☕
-            </p>
+            <p>Full-Stack Developer, Graphic Designer, Life-Long Student and avid coffee drinker ☕</p>
             <br />
             <p>
-              Front-end web developer currently learning the back-end side of
-              development. Attended Central Connecticut State University with a
-              Bachelor’s degree in Graphic Design and a minor in Computer
-              Science, as well as earning a Certificate in Full-Stack web
-              development through the University of Connecticut. Strong HTML,
-              CSS, and JavaScript with newly acquired skills in responsive web
-              design, Node.js, and APIs. Exceedingly strong work ethic and
-              passionate about learning new things. My interests lie in
-              mobile-first design and mobile app development. My dedication to
-              my work and eagerness to learn new things make me an important
+              Front-end web developer currently learning the back-end side of development. Attended Central Connecticut
+              State University with a Bachelor’s degree in Graphic Design and a minor in Computer Science, as well as
+              earning a Certificate in Full-Stack web development through the University of Connecticut. Strong HTML,
+              CSS, and JavaScript with newly acquired skills in responsive web design, Node.js, and APIs. Exceedingly
+              strong work ethic and passionate about learning new things. My interests lie in mobile-first design and
+              mobile app development. My dedication to my work and eagerness to learn new things make me an important
               asset on any team.
             </p>
             <br />
             <p>
-              <a href="./assets/images/Campanelli_resume.pdf" download>
-                Download my resume here</a
-              >
+              <a href="./assets/images/Campanelli_resume.pdf" download> Download my resume here</a>
             </p>
           </div>
         </div>
@@ -129,9 +110,9 @@
 
         <!-- Image Row 1 in full screen , full screen image if browser's width is less than 767.98px-->
         <div class="row">
-          <div class="col-12 col-md-4">
+          <!-- <div class="col-12 col-md-4">
             <div class="card hvr-grow">
-              <a href="https://zacharycampanelli.github.io/SpellingPractice/" data-toggle="modal" data-target="">
+              <a href="https://zacharycampanelli.github.io/SpellingPractice/" data-bs-toggle="modal" data-target="">
                 <img
                   s
                   class="card-img-top"
@@ -144,16 +125,139 @@
                 </div>
               </a>
             </div>
-          </div>
+          </div> -->
 
+          <!-- image trigger modal -->
           <div class="col-12 col-md-4">
             <div class="card hvr-grow">
+              <a data-target="#myModal2" data-toggle="modal">
+                <img src="./assets/images/spellingpractice.png" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Spelling Practice</h5>
+                  <p class="card-text">HTML | CSS | Javascript | Bulma</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Modal -->
+          <div
+            tabindex="-1"
+            class="modal fade"
+            id="myModal2"
+            role="dialog"
+            aria-hidden="true"
+            aria-labelledby="myModalLabel"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button class="close" aria-hidden="true" type="button" data-dismiss="modal">×</button>
+                  <h4 class="modal-title" id="myModalLabel">Spelling Practice</h4>
+                </div>
+                <div class="modal-body">
+                  <p class="card-text">HTML | CSS | Javascript | Bulma</p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                  <button class="btn btn-primary" type="button">Save changes</button>
+                </div>
+              </div>
+              <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+          </div>
+          <!-- /.modal -->
+
+          <!-- image trigger modal -->
+          <div class="col-12 col-md-4">
+            <div class="card hvr-grow">
+              <a data-target="#myModal" data-toggle="modal">
+                <img src="./assets/images/weather.png" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Weather Dashboard</h5>
+                  <p class="card-text">Javascript</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Modal -->
+          <div
+            tabindex="-1"
+            class="modal fade"
+            id="myModal"
+            role="dialog"
+            aria-hidden="true"
+            aria-labelledby="myModalLabel"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button class="close" aria-hidden="true" type="button" data-dismiss="modal">×</button>
+                  <h4 class="modal-title" id="myModalLabel">Weather Dashboard</h4>
+                </div>
+                <div class="modal-body">
+                  <p class="card-text">Javascript</p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                  <button class="btn btn-primary" type="button">Save changes</button>
+                </div>
+              </div>
+              <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+          </div>
+          <!-- /.modal -->
+
+
+          <!-- image trigger modal -->
+          <div class="col-12 col-md-4">
+            <div class="card hvr-grow">
+              <a data-target="#myModal3" data-toggle="modal">
+                <img src="./assets/images/Personalinfolocker.png" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Personal Info Locker</h5>
+                  <p class="card-text">Node.js | Express.js | Handlebars</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Modal -->
+          <div
+            tabindex="-1"
+            class="modal fade"
+            id="myModal3"
+            role="dialog"
+            aria-hidden="true"
+            aria-labelledby="myModalLabel"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button class="close" aria-hidden="true" type="button" data-dismiss="modal">×</button>
+                  <h4 class="modal-title" id="myModalLabel">Personal Info Locker</h4>
+                </div>
+                <div class="modal-body">
+                  <p class="card-text">Node.js | Express.js | Handlebars</p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                  <button class="btn btn-primary" type="button">Save changes</button>
+                </div>
+              </div>
+              <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+          </div>
+          <!-- /.modal -->
+
+          <!-- <div class="col-12 col-md-4">
+            <div class="card hvr-grow">
               <a href="https://zacharycampanelli.github.io/Weather_Dashboard/">
-                <img
-                  class="card-img-top"
-                  src="./assets/images/weather.png"
-                  alt="Weather Dashboard"
-                />
+                <img class="card-img-top" src="./assets/images/weather.png" alt="Weather Dashboard" />
                 <div class="card-body">
                   <h5 class="card-title">Weather Dashboard</h5>
                   <p class="card-text">Javascript</p>
@@ -165,30 +269,153 @@
           <div class="col-12 col-md-4">
             <div class="card hvr-grow">
               <a href="https://sleepy-cove-57890.herokuapp.com/">
-                <img
-                  class="card-img-top"
-                  src="./assets/images/Personalinfolocker.png"
-                  alt="Personal Info Locker"
-                />
+                <img class="card-img-top" src="./assets/images/Personalinfolocker.png" alt="Personal Info Locker" />
                 <div class="card-body">
                   <h5 class="card-title">Personal Info Locker</h5>
                   <p class="card-text">Node.js | Express.js | Handlebars</p>
                 </div>
               </a>
             </div>
-          </div>
+          </div> -->
         </div>
 
+
+        <div class="row"
+          <!-- image trigger modal -->
+          <div class="col-12 col-md-4">
+            <div class="card hvr-grow">
+              <a data-target="#myModal4" data-toggle="modal">
+                <img src="./assets/images/password.png" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Password Generator</h5>
+                  <p class="card-text">Javascript</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Modal -->
+          <div
+            tabindex="-1"
+            class="modal fade"
+            id="myModal4"
+            role="dialog"
+            aria-hidden="true"
+            aria-labelledby="myModalLabel"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button class="close" aria-hidden="true" type="button" data-dismiss="modal">×</button>
+                  <h4 class="modal-title" id="myModalLabel">Password Generator</h4>
+                </div>
+                <div class="modal-body">
+                  <p class="card-text">Javascript</p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                  <button class="btn btn-primary" type="button">Save changes</button>
+                </div>
+              </div>
+              <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+          </div>
+          <!-- /.modal -->
+
+          <!-- image trigger modal -->
+          <div class="col-12 col-md-4">
+            <div class="card hvr-grow">
+              <a data-target="#myModal5" data-toggle="modal">
+                <img src="./assets/images/taskmaster.png" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Taskmaster Pro</h5>
+                  <p class="card-text">JavaScript | JQuery</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Modal -->
+          <div
+            tabindex="-1"
+            class="modal fade"
+            id="myModal5"
+            role="dialog"
+            aria-hidden="true"
+            aria-labelledby="myModalLabel"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button class="close" aria-hidden="true" type="button" data-dismiss="modal">×</button>
+                  <h4 class="modal-title" id="myModalLabel">Taskmaster Pro</h4>
+                </div>
+                <div class="modal-body">
+                  <p class="card-text">JavaScript | JQuery</p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                  <button class="btn btn-primary" type="button">Save changes</button>
+                </div>
+              </div>
+              <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+          </div>
+          <!-- /.modal -->
+
+
+          <!-- image trigger modal -->
+          <div class="col-12 col-md-4">
+            <div class="card hvr-grow">
+              <a data-target="#myModal6" data-toggle="modal">
+                <img src="./assets/images/Solar-bears.png" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Solar Bears</h5>
+                  <p class="card-text">HTML | CSS</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Modal -->
+          <div
+            tabindex="-1"
+            class="modal fade"
+            id="myModal6"
+            role="dialog"
+            aria-hidden="true"
+            aria-labelledby="myModalLabel"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button class="close" aria-hidden="true" type="button" data-dismiss="modal">×</button>
+                  <h4 class="modal-title" id="myModalLabel">Solar Bears</h4>
+                </div>
+                <div class="modal-body">
+                  <p class="card-text">HTML | CSS</p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                  <button class="btn btn-primary" type="button">Save changes</button>
+                </div>
+              </div>
+              <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+          </div>
+          <!-- /.modal -->
+
+        
+        </div>
         <!-- Image Row 2 in full screen -->
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-12 col-md-4">
             <div class="card hvr-grow">
               <a href="https://zacharycampanelli.github.io/Password_Generator/">
-                <img
-                  class="card-img-top"
-                  src="./assets/images/password.png"
-                  alt="Password Generator"
-                />
+                <img class="card-img-top" src="./assets/images/password.png" alt="Password Generator" />
                 <div class="card-body">
                   <h5 class="card-title">Password Generator</h5>
                   <p class="card-text">Javascript</p>
@@ -200,11 +427,7 @@
           <div class="col-12 col-md-4">
             <div class="card hvr-grow">
               <a href="https://zacharycampanelli.github.io/Taskmaster_Pro/">
-                <img
-                  class="card-img-top"
-                  src="./assets/images/taskmaster.png"
-                  alt="Task Planner"
-                />
+                <img class="card-img-top" src="./assets/images/taskmaster.png" alt="Task Planner" />
                 <div class="card-body">
                   <h5 class="card-title">Taskmaster Pro</h5>
                   <p class="card-text">JavaScript | JQuery</p>
@@ -216,11 +439,7 @@
           <div class="col-12 col-md-4">
             <div class="card hvr-grow">
               <a href="https://zacharycampanelli.github.io/Solar_Bears/">
-                <img
-                  class="card-img-top"
-                  src="./assets/images/Solar-bears.png"
-                  alt="Password Generator"
-                />
+                <img class="card-img-top" src="./assets/images/Solar-bears.png" alt="Password Generator" />
                 <div class="card-body">
                   <h5 class="card-title">Solar Bears</h5>
                   <p class="card-text">HTML | CSS</p>
@@ -228,7 +447,7 @@
               </a>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- (OPTIONAL) Image Row 3 in full screen -->
         <!-- <div class="row">
@@ -315,8 +534,7 @@
             >
           </div>
           <div class="col-2 text-center">
-            <a
-              href="https://open.spotify.com/user/1280141912?si=15070da5e93f4736"
+            <a href="https://open.spotify.com/user/1280141912?si=15070da5e93f4736"
               ><i class="fab fa-spotify contact-icon"></i>
               <div class="d-none">Spotify</div></a
             >
