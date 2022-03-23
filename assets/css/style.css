@@ -193,6 +193,19 @@ a:visited {
   background-color: var(--lightblue);
 }
 
+.modal-header, .modal-footer {
+  background-color: var(--mediumblue);
+}
+
+.modal-text {
+  font-weight: 600;
+}
+
+.modal-link , .modal-link a{
+  font-size: 0.85em;
+  color: var(--darkblue)
+}
+
 /* Contact Styles */
 .contact {
   display: flex;
