@@ -203,7 +203,9 @@ a:visited {
 
 .modal-link , .modal-link a{
   font-size: 0.85em;
-  color: var(--darkblue)
+  color: var(--darkblue);
+  padding: 0.5rem;
+  text-align: left;
 }
 
 /* Contact Styles */
