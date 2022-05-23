@@ -28,7 +28,6 @@ h6 {
 
 p {
   color: var(--mediumteal);
-
 }
 
 body {
@@ -220,10 +219,11 @@ address {
   display: flex;
 }
 
-.copyright {
+.copyright > p {
   text-align: center;
   margin-top: 1em;
   font-size: 1em;
+  color: white !important;
 }
 
 address > a {
